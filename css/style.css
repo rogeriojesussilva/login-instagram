@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243,243,243);
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.img-section {
+    width: 49%;
+    height: 100%;
+}
+
+.img-section img {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    transition: 
+ }
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.login-instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 56%;
+    background-color: white;
+    border: 1px solid #cccccc;
+
+}
+
+.logo-instagram {
+    width: 50%;
+}
+
+.login-link-continue {
+    background-color: #0095f6;
+    color: white;
+    line-height: 25px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login-link-remover-conta {
+    color: #0095f6;
+}
+
+.login-photo {
+    width: 23%;
+    border-radius: 50%;
+}
+
+.switch-account-instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+.switch-account-instagram p {
+    margin-top: 5px;
+}
+
+.switch-account-instagram a {
+    color: #0095f6;
+}
+
+
+.get-the-app-instagram {
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-the-app-instagram span {
+    color: #777;
+    font-weight: bold;
+}
+
+.get-the-app-instagram p {
+    color: #777;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.get-the-app-instagram img {
+    margin-top: 15px;
+    width: 165px;
+}
+
+@media(max-width: 875px)
+{
+
+    main {
+        width: 90%;
+        height: 90vh;
+    }
+
+    .img-section {
+        display: none;
+    }
+
+    .login-section {
+        width: 100%;
+    }   
+}
+
+@media(max-height: 410px)
+{
+    .login-section {
+        min-height: 500px;
+    }
+}
+
+@media(max-width: 410px)
+{
+    
+    .get-the-app-instagram img {
+        margin-top: 15px;
+        width: 48%;
+    }
+
+}
